@@ -1,0 +1,19 @@
+Name:           ChatServer
+Version:        1.0
+Synopsis:       A simple Chat server.
+Description:    This is a very simple chat server.
+               
+License:        MIT
+License-File:   LICENSE
+Author:         Julian Fleischer
+Maintainer:     julian.fleischer@fu-berlin.de
+Build-Type:     Simple
+Cabal-Version:  >= 1.10
+Category:       Utility
+Stability:      provisional
+
+Executable ChatServer
+    Main-Is:            ChatServer.hs
+    Build-Depends:      base >= 3 && < 5, network
+    default-language:   Haskell2010
+
