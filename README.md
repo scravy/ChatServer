@@ -1,6 +1,7 @@
 # ChatServer
 
-A simple server that distributes incoming messages to all connected clients. Written in concurrent Haskell.
+A simple server that distributes incoming messages to all connected clients.
+Written in [Concurrent Haskell](http://research.microsoft.com/en-us/um/people/simonpj/papers/concurrent-haskell.pdf).
 
 ## Running
 
